@@ -1,0 +1,231 @@
+body{
+    background-color: #023d8a;
+}
+h1 {
+    font-family:"Gill Sans", sans-serif;
+    text-align: center;
+    margin-bottom: 50px;
+    background-color: #011c40;
+    color: white;
+    padding: 15px;
+}
+h2 {
+    font-family:"Gill Sans", sans-serif;
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 30px;
+    background-color: #011c40;
+    color: white;
+    padding: 15px;
+}
+p{
+    font-family:"Gill Sans", sans-serif;
+    font-size: 16px;
+    margin-top: 20px;
+    margin-bottom: 0px;
+    text-align: center;
+}
+.just-below {
+    margin-top: 50px;
+}
+table {
+    outline-style: solid;
+    outline-width: 5px;
+    outline-color: #011c40;
+    margin: 0 auto;
+}
+th, td {
+    padding: 14px;
+    padding-right: 20px;
+    font-weight:bold;
+}
+th {
+    padding: 20px;
+    text-align: left;
+    background-color: #011c40;
+    color: white;
+    font-size: large;
+    font-family:"Gill Sans", sans-serif;
+}
+tr:nth-child(even) {
+    background-color: #025373;
+}
+tr:nth-child(odd) {
+    background-color: #426a7a;
+}
+tr:hover {
+    background-color: #022859;
+}
+.orders th {
+    padding: 20px;
+    text-align: center;
+    background-color: #011c40;
+    color: white;
+    font-size: x-large;
+    font-family:"Gill Sans", sans-serif;
+}
+.orders tr:nth-child(even):hover, .orders tr:nth-child(even):hover + tr {
+    background-color: #022859;
+}
+.orders tr:nth-child(even) {
+    background-color: #025373;
+}
+.orders tr:nth-child(odd) {
+    background-color: #426a7a;
+}
+.products table {
+    display: inline-table;
+}
+.products th {
+    padding-top: 8px;
+    padding-bottom: 8px;
+    text-align: left;
+    background-color: #011c40;
+    color: white;
+    font-size: large;
+}
+.products td {
+    padding-top: 8px;
+    padding-bottom: 8px;
+    text-align: left;
+    font-weight: normal;
+    background-color: #025373;
+    color: white;
+}
+.products tr {
+    background-color: #426a7a;
+}
+a {
+    text-decoration: none;
+    color: black;
+}
+div {
+    text-align: center;
+}
+button {
+    background-color: white;
+    border: 2px solid #011c40;
+    color: white;
+    padding: 4px 20px;
+    font-family:"Gill Sans", sans-serif;
+    font-size: 16px;
+    text-align: center;
+    font-size: 16px;
+    cursor: pointer;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-top: 20px;
+}
+button:hover {
+    background-color: #011c40;
+    color: white;
+}
+button:hover > a{
+    color: white;
+}
+input[type=text], input[type=password] {
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 6px;
+    width: 300px;
+    border: 2px solid #011c40;
+    border-radius: 4px;
+    font-family:"Gill Sans", sans-serif;
+    font-size: 18px;
+    background-color: #025373;
+    color: white;
+    padding: 12px 20px 12px 20px;
+    transition: width 0.4s ease-in-out;
+    display: inline-block;
+}
+input[type=text]:focus, input[type=password]:focus {
+    outline: none;
+    width: 40%;
+}
+input[type=text].in_table, input[type=password].in_table {
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 6px;
+    width: 300px;
+    border: 2px solid #011c40;
+    border-radius: 4px;
+    font-family:"Gill Sans", sans-serif;
+    font-size: 18px;
+    background-color: #025373;
+    color: white;
+    padding: 12px 20px 12px 20px;
+    transition: width 0.4s ease-in-out;
+    display: inline-block;
+}
+input[type=text].in_table:focus, input[type=password].in_table:focus {
+    outline: none;
+}
+input[type=submit], input[type=reset] {
+    background-color: #025373;
+    border: 2px solid #011c40;
+    color: white;
+    padding: 4px 20px;
+    font-family:"Gill Sans", sans-serif;
+    font-size: 16px;
+    text-align: center;
+    font-size: 16px;
+    cursor: pointer;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+input[type=submit]:hover, input[type=reset]:hover {
+    background-color: #011c40;
+}
+.form-content{
+    text-align: center;
+}
+select {
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 6px;
+    width: 100px;
+    border: 2px solid #011c40;
+    border-radius: 4px;
+    font-family:"Gill Sans", sans-serif;
+    font-size: 18px;
+    background-color: #025373;
+    color: white;
+    padding: 12px 20px 12px 20px;
+    transition: width 0.4s ease-in-out;
+    display: inline-block;
+}
+select:focus {
+    outline: none;
+    width: 20%;
+}
+a {
+    text-decoration: none;
+    color: black;
+}
+.navigation {
+    text-align: center;
+}
+.just-below {
+    margin-top: 50px;
+}
+nav a{
+    background-color: #011c40;
+    border: 2px solid white;
+    color: white;
+    padding: 4px 20px;
+    font-family:"Gill Sans", sans-serif;
+    font-size: 16px;
+    text-align: center;
+    font-size: 16px;
+    cursor: pointer;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-top: 20px;
+}
+nav a:hover {
+    background-color: white;
+    color: black;
+}
+.tdright {
+    text-align: right;
+}
